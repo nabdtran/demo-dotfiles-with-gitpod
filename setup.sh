@@ -1,5 +1,7 @@
 #!/bin/bash
 
+gp timeout set 24h & disown
+
 TMPDIR=$(mktemp -d)
 
 CURRENT=$PWD
